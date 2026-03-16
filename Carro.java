@@ -7,18 +7,22 @@ public class Carro {
 
     //Construtor padrão
     public Carro (){
-        modelo = "Modelo desconhecido";
+        this("Modelo Desconhecido", 0, "Cor Indefinida", 0);
+    /*  modelo = "Modelo desconhecido";
         ano = 0;
         cor = "Cor indefinida";
         preco = 0.0;
+    */   
     }
 
     //Constutor com parâmetros
     public Carro (String modelo){
-        this.modelo = modelo;
+        this(modelo, 2022, "Cor padrão", 50000.0);
+       /* this.modelo = modelo;
         this.ano =  2022;
         this.cor = "Cor padrão";
         this.preco = 50000.0;
+         */
     }
      public Carro(String modelo, int ano, String cor, double preco) {
 
